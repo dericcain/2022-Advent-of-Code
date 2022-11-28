@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deric": "node ./deric/index.js",
+    "dylan": "node ./dylan/index.js",
+    "v": "echo 'its pizza time\n' && node ./vkdur/index.js",
+    "zach": "echo 'its morbin time!\n' && node ./zach/index.js",
+    "jacob": "node ./jacob/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "node-fetch": "^3.2.6",
+    "fs-extra": "11.0.0"
+  }
+}
