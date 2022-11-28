@@ -1,13 +1,14 @@
-const { readdir } from require('fs');  
-const { promisify } = from 'utils';
-const { resolve } = require('path');
+const { promisify } = require('util');
+const { exec } = require ('child_process');
 
-const read = promisify(readdir);
-const root = resolve(__dirname, '.');
+
+const members = ['deric', 'dylan', 'hunter', 'jacob', 'vkdur', 'zach'];
+const ex = promisify(exec);
 
 const runAll = async () => {
-  const dirs = await read(root);
-  console.log(dirs);
+  for await (member of members) {
+    await ex(`node ./${member}.js`);
+  }
 };
 
-(async () => await runAll())();
+(async () => await runAll());

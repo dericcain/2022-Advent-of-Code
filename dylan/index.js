@@ -1,6 +1,4 @@
 
-function solveDay1() {
+function solve(input) {
 
 }
-
-// solveDay1();

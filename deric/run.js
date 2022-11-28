@@ -1,2 +1,3 @@
-#!/usr/bin/node
+const hey = () => `HELLO!!!!!!!!!!!!!!`;
 
+hey();
