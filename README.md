@@ -1,5 +1,6 @@
 # 2022 Advent of Code - Thundercats swarm
 
-## Instructions:
+### Check out the REPL.it
 
-// TODO
+https://adventofcode.com/
+https://replit.com/@Shipt-Thundercats/2022AdventOfCode#README.md
